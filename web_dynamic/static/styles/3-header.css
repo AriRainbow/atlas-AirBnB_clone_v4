@@ -4,8 +4,25 @@ header {
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
+
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+/* New styling for the API status circle */
+#api_status {
+    width: 40px;
+    height: 40px;
+    background-color: #cccccc; /* Default color */
+    border-radius: 50%; /* Circle shape */
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 30px; /* 30px from the right border */
+    transform: translateY(-50%); /* Adjust the vertical centering */
+}
+
+#api_status.available {
+    background-color: #ff545f; /* Red color when available */
 }
