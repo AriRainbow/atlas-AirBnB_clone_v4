@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+venv/
+env/
+*.venv
+
+# MySQL database files
+*.db
+*.sqlite3
+
+# Flask and temporary files
+instance/
+*.pid
+*.pyo
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE configurations
+.idea/
+.vscode/
+
+# Build and cache directories
+*.egg-info/
+build/
+dist/
+.eggs/
+.coverage
+
+# Node.js
+node_modules/
+
+# Testing
+htmlcov/
+.tox/
+
+# Ignore local uploads and data
+uploads/
+*.bak
+*.old
+
+# Miscellaneous
+*.swp
+*.swo
+*~
